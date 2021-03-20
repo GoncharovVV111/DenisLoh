@@ -1,0 +1,68 @@
+object Form1: TForm1
+  Left = 256
+  Height = 240
+  Top = 145
+  Width = 253
+  Caption = 'Form1'
+  ClientHeight = 240
+  ClientWidth = 253
+  Color = clInfoBk
+  LCLVersion = '2.0.12.0'
+  object Edit1: TEdit
+    Left = 112
+    Height = 23
+    Top = 8
+    Width = 137
+    TabOrder = 0
+  end
+  object Edit2: TEdit
+    Left = 40
+    Height = 23
+    Top = 208
+    Width = 184
+    TabOrder = 1
+  end
+  object Enter: TLabel
+    Left = 24
+    Height = 15
+    Top = 9
+    Width = 81
+    Caption = 'Enter a number'
+    ParentColor = False
+  end
+  object RadioButton1: TRadioButton
+    Left = 8
+    Height = 19
+    Top = 70
+    Width = 184
+    Caption = 'Двоичная система счисления'
+    OnChange = RadioButton1Change
+    TabOrder = 2
+  end
+  object RadioButton2: TRadioButton
+    Left = 8
+    Height = 19
+    Top = 110
+    Width = 211
+    Caption = 'Восьмеричная система счисления'
+    OnChange = RadioButton2Change
+    TabOrder = 3
+  end
+  object RadioButton3: TRadioButton
+    Left = 8
+    Height = 19
+    Top = 152
+    Width = 241
+    Caption = 'Шестнадцатеричная система счисления'
+    OnChange = RadioButton3Change
+    TabOrder = 4
+  end
+  object Label1: TLabel
+    Left = 40
+    Height = 15
+    Top = 192
+    Width = 32
+    Caption = 'Result'
+    ParentColor = False
+  end
+end
